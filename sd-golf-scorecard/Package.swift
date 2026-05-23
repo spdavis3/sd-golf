@@ -8,8 +8,13 @@ let package = Package(
         .macOS(.v14)
     ],
     targets: [
+        .target(
+            name: "SdGolfScorecardUI",
+            path: "Sources/SdGolfScorecardUI"
+        ),
         .executableTarget(
             name: "SdGolfScorecard",
+            dependencies: ["SdGolfScorecardUI"],
             path: "Sources/SdGolfScorecard"
         )
     ]

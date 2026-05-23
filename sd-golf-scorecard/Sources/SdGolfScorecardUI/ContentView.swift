@@ -1,7 +1,9 @@
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
+public struct ContentView: View {
+    public init() {}
+
+    public var body: some View {
         VStack(spacing: 16) {
             Image(systemName: "figure.golf")
                 .font(.system(size: 64))

@@ -1,4 +1,5 @@
 import SwiftUI
+import SdGolfScorecardUI
 
 @main
 struct SdGolfScorecardApp: App {
